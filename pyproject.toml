@@ -9,10 +9,14 @@ readme = "README.md"
 python = "^3.12"
 pymongo = {extras = ["srv"], version = "^4.8.0"}
 curl-cffi = "^0.7.1"
-rich = "^13.7.1"
+rich = "^13.8.0"
 python-dotenv = "^1.0.1"
 pinecone-client = {extras = ["grpc"], version = "^5.0.1"}
-groq = "^0.9.0"
+groq = "^0.11.0"
+discord-py = "^2.4.0"
+requests = "^2.32.3"
+openai = "^1.44.0"
+ratelimit = "^2.2.1"
 
 
 [build-system]
